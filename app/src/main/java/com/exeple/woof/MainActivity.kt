@@ -121,7 +121,7 @@ fun DogItem(
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun WoofTopAppBar(modifier: Modifier = Modifier) {
-    CenterAlignedTopAppBar(
+    CenterAlignedTopgiAppBar(
         title = {
             Row(
                 verticalAlignment = Alignment.CenterVertically
